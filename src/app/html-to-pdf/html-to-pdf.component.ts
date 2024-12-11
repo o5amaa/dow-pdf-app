@@ -36,4 +36,9 @@ export class HtmlToPdfComponent {
       pdf.save('myFile.pdf');
     });
   }
+
+  onFabClick(entry:any) {
+    this.generatePdf();
+    console.log('Floating Action Button Clicked!');
+  }
 }
