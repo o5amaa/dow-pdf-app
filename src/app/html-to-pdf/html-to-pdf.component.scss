@@ -99,25 +99,27 @@ button {
   }
 }
 
+.butn {
 
-.floating-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  background-color: #c7abab;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  font-size: 24px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #c7abab;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
 
+  }
   .floating-btn:hover {
     background-color: #541212;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
